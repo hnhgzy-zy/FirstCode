@@ -1,5 +1,0 @@
-INDEX VERSION 1.126+Q:\FirstCode\CH1\.metadata\.plugins\org.eclipse.jdt.core
-1897121855.index
-4022045111.index
-946559863.index
-2380175872.index
