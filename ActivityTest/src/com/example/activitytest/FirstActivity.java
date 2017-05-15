@@ -2,6 +2,7 @@ package com.example.activitytest;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,8 +24,10 @@ public class FirstActivity extends Activity {
 		button1.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent("com.example.acivitytest.ACTION_START");
-				intent.addCategory("com.example.acivitytest.MY_CATEGORY");
+//				Intent intent = new Intent(Intent.ACTION_VIEW);
+//				intent.setData(Uri.parse("http://www.baidu.com"));
+				Intent intent = new Intent(Intent.ACTION_DIAL);
+				intent.setData(Uri.parse("tel:1301711"));
 				startActivity(intent);
 			}
 			

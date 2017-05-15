@@ -1,0 +1,7 @@
+package com.example.activitytest;
+
+import Activity;
+
+public class ThirdActivity extends Activity {
+
+}
