@@ -24,7 +24,7 @@ public class FirstActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent("com.example.acivitytest.ACTION_START");
-				intent.addCategory("com.example.acivitytest.MY_CATEGORY");
+				intent.addCategory("com.example.acivitytest.MY_CATEGORY")
 				startActivity(intent);
 			}
 			

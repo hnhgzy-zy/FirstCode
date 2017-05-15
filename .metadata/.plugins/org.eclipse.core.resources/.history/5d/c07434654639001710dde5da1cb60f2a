@@ -23,9 +23,7 @@
         <activity android:name=".SecondActivity">
             <intent-filter>
                  <action android:name="com.example.acivitytest.ACTION_START" />
-                 <category android:name="android.intent.category.DEFAULT" />
-                 <category android:name="com.example.acivitytest.MY_CATEGORY" />
-                 </intent-filter>
+            </intent-filter>
         </activity>
      </application>
 </manifest>

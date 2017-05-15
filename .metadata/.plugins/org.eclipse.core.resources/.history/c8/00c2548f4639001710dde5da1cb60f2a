@@ -23,8 +23,10 @@ public class FirstActivity extends Activity {
 		button1.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent("com.example.acivitytest.ACTION_START");
-				intent.addCategory("com.example.acivitytest.MY_CATEGORY");
+				//Toast.makeText(FirstActivity.this, "You clicked Button-2", Toast.LENGTH_SHORT).show();
+				//finish();
+				
+				Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
 				startActivity(intent);
 			}
 			
